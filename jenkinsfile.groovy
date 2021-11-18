@@ -12,7 +12,7 @@ node('master') {
             userInput = input message: 'Input the file ', parameters: [file(description: '', name: 'vinu')]
 		}
 
-	    sh 'mv vinu ${WORKSPACE}/'
+	    sh 'mv ' + userInput['vinu'] + ' ${WORKSPACE}/'
 			
 
 			
