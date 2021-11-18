@@ -1,4 +1,4 @@
-@Library('vinushared') _
+@Library('vinushared@vinu') _
 node('master') {
 
 	stage('Request files'){
