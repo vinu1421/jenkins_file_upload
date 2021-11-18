@@ -1,5 +1,5 @@
-@Library('vinu_shared')
-node {
+@Library('vinushared')
+node('master') {
 
 	stage('Request files'){
 
