@@ -1,5 +1,5 @@
 node('master') {
-timestamps {
+
 
 	deleteDir()
 
@@ -18,5 +18,4 @@ timestamps {
 			
 		
 	}
-}
 }
