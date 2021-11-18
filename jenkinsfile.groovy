@@ -1,7 +1,5 @@
+@Library('vinu_shared')
 node('master') {
-
-
-	deleteDir()
 
 	stage('Request files'){
 
