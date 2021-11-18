@@ -6,7 +6,7 @@ node('master') {
 	stage('Request files'){
 
        userInput = input message: 'Input the file ', parameters: [file(description: '', name: 'vinu')]
-	   sh 'mv $vinu ${WORKSPACE}/'
+	   sh 'cat $vinu'
 			
 
 			
